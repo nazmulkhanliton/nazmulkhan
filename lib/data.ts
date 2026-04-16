@@ -1,0 +1,122 @@
+export const portfolioData = {
+  name: "Md Nazmul Khan Liton",
+  title: "Full Stack Engineer & AI Enthusiast",
+  email: "liton079@gmail.com",
+  phone: "+8801521481658",
+  bio: "Software Engineer at Edusoft Consultants Ltd with a passion for building scalable web applications, AI-powered systems, and educational technology. Published researcher in ML and NLP.",
+  links: {
+    github: "https://github.com",
+    linkedin: "https://linkedin.com",
+    googleScholar: "https://scholar.google.com",
+    leetcode: "https://leetcode.com",
+  },
+  skills: [
+    "Python", "Java", "JavaScript", "TypeScript",
+    "Next.js", "Node.js", "React.js", "Express.js",
+    "Prisma", "Drizzle ORM", "MongoDB", "PostgreSQL",
+    "Machine Learning", "LLaMA", "ChromaDB", "AI Agents",
+  ],
+  experience: [
+    {
+      company: "Edusoft Consultants LTD",
+      role: "Software Engineer",
+      period: "February 2022 – Present",
+      responsibilities: [
+        "Full Stack Node.js Developer building scalable web platforms",
+        "Trainer – conducted workshops and training sessions",
+        "Server Management and DevOps",
+        "Product Design & architecture",
+        "Knowledge-based AI Agent development",
+        "Developed new products based on customer requirements",
+      ],
+    },
+  ],
+  education: [
+    {
+      institution: "United International University, Dhaka",
+      degree: "B.Sc in Computer Science and Engineering",
+      year: "June 2020",
+    },
+  ],
+  projects: [
+    {
+      title: "BUP LMS",
+      year: "2025",
+      description: "A web-based Learning Management System for Bangladesh University of Professionals. Features secure course access, assignments, notices, and role-based dashboards.",
+      tech: ["Next.js", "Node.js", "PostgreSQL", "Drizzle ORM"],
+      link: "https://www.bup.edu.bd",
+    },
+    {
+      title: "Knowledge-based AI Agent",
+      year: "2025",
+      description: "AI-powered system that processes PDFs using LLaMA. Loads, cleans, chunks, and embeds documents into ChromaDB for intelligent retrieval.",
+      tech: ["Python", "LLaMA", "ChromaDB"],
+      link: null,
+    },
+    {
+      title: "Alightinzen",
+      year: "2025",
+      description: "Bangladesh's first online mental wellness platform offering confidential counseling via text, chat, phone, or video.",
+      tech: ["Next.js", "Prisma", "Node.js", "PostgreSQL"],
+      link: "https://www.alightinzen.com",
+    },
+    {
+      title: "Nisan Paint & Inks Ltd",
+      year: "2025",
+      description: "Modern responsive company website showcasing industrial paint and ink products with SEO-friendly architecture.",
+      tech: ["Next.js", "Node.js", "PostgreSQL", "Drizzle ORM"],
+      link: "https://www.nisaninks.com",
+    },
+    {
+      title: "Task Management System",
+      year: "2025",
+      description: "Full-featured web-based task management system with real-time updates, team assignment, priority tracking, and intuitive UI.",
+      tech: ["Next.js", "Node.js", "PostgreSQL", "Drizzle ORM"],
+      link: "https://tms-escl.vercel.app/",
+    },
+    {
+      title: "Lake View Park & Restaurant",
+      year: "2025",
+      description: "Complete management and digital ticketing system with visitor registration, ticket sales, ride management, and real-time reporting.",
+      tech: ["Next.js", "Node.js", "PostgreSQL", "Drizzle ORM"],
+      link: "https://www.lakeviewparkandrestaurant.com",
+    },
+  ],
+  publications: [
+    {
+      type: "Journal",
+      title: "iPromoter-BnCNN: a Novel Branched CNN Based Predictor for Identifying and Classifying Sigma Promoters",
+      year: "2019",
+      link: "https://arxiv.org/pdf/1912.10251.pdf",
+    },
+    {
+      type: "Conference",
+      title: "Disha: An Implementation of Machine Learning Based Bangla Healthcare Chatbot",
+      year: "2019",
+      link: "https://ieeexplore.ieee.org/abstract/document/9038579",
+    },
+    {
+      type: "Conference",
+      title: "Abstractive headline generation from Bangla news articles using Seq2Seq RNNs with global attention",
+      year: "2021",
+      link: "https://ieeexplore.ieee.org/abstract/document/9642642",
+    },
+    {
+      type: "Conference",
+      title: "Boosting K-Nearest Neighbour Classification using Clustering and AdaBoost Methods",
+      year: "2022",
+      link: "https://ieeexplore.ieee.org/abstract/document/9864503",
+    },
+  ],
+  awards: [
+    { title: "Champion – UIU Software Project Show Fall-2019", subtitle: "Indicia" },
+    { title: "Champion – Electronics Project Show Summer-2017", subtitle: "Robotic Arm" },
+    { title: "GCP Essentials – Google Cloud", subtitle: "May 2018" },
+    { title: "Instructor @ IBBBS, Bangladesh Maritime University", subtitle: "March 2023 – 4-Week Training Course" },
+  ],
+  leadership: [
+    { role: "Presidential Advisor", org: "UIU App Forum", period: "2020–2025" },
+    { role: "President", org: "UIU App Forum", period: "2020–2021" },
+    { role: "Vice President", org: "UIU App Forum", period: "2019–2020" },
+  ],
+};
