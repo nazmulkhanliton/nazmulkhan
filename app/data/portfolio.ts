@@ -6,10 +6,10 @@ export const person = {
   phone: "+8801521481658",
   company: "Edusoft Consultants Ltd",
   companyUrl: "https://edusoftconsultants.com",
-  github: "https://github.com/",
-  linkedin: "https://linkedin.com/",
-  scholar: "https://scholar.google.com/",
-  leetcode: "https://leetcode.com/",
+  github: "https://github.com/nazmulkhanliton",
+  linkedin: "https://linkedin.com/in/nazmulkhanliton",
+  scholar: "https://scholar.google.com/citations?user=ZWKvGLkAAAAJ&hl=en",
+  leetcode: "https://leetcode.com/u/nazmulkhanliton/",
   bio: "I build full-stack web systems, train developers, manage servers, and design AI-powered knowledge agents. Currently crafting educational technology solutions at Edusoft Consultants Ltd.",
 };
 
@@ -68,6 +68,22 @@ export const projects = [
     featured: true,
   },
   {
+    name: "Lalmatia Govt. Mohila College",
+    year: "2026",
+    description:
+      "Official website for Lalmatia Govt. Mohila College, Dhaka. Features academic information, notices, faculty profiles, and admission details for one of Dhaka's prominent women's colleges.",
+    tech: [
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "MongoDB",
+      "Firebase",
+      "Redux Toolkit",
+    ],
+    url: "https://www.lalmatiamohilacollege.edu.bd",
+    featured: false,
+  },
+  {
     name: "Alightinzen",
     year: "2025",
     description:
@@ -100,7 +116,7 @@ export const projects = [
     description:
       "Complete digital ticketing and management system — visitor registration, ticket sales, ride management, secure payments, and real-time reporting dashboard.",
     tech: ["Next.js", "Node.js", "PostgreSQL", "Drizzle ORM"],
-    url: "https://www.lakeviewparkandrestaurant.com",
+    url: "",
     featured: false,
   },
 ];
@@ -108,35 +124,47 @@ export const projects = [
 export const publications = [
   {
     type: "Journal",
-    title: "iPromoter-BnCNN: a Novel Branched CNN Based Predictor for Identifying and Classifying Sigma Promoters",
+    title:
+      "iPromoter-BnCNN: a Novel Branched CNN Based Predictor for Identifying and Classifying Sigma Promoters",
     year: "2019",
-    authors: "Ruhul Amin, Chowdhury Rafeed Rahman, Md. Habibur Rahman Sifat, Md Nazmul Khan Liton, et al.",
+    authors:
+      "Ruhul Amin, Chowdhury Rafeed Rahman, Md. Habibur Rahman Sifat, Md Nazmul Khan Liton, et al.",
     url: "https://arxiv.org/pdf/1912.10251.pdf",
     venue: "arXiv",
+    citation: 71,
   },
   {
     type: "Conference",
-    title: "Disha: An Implementation of Machine Learning Based Bangla Healthcare Chatbot",
+    title:
+      "Disha: An Implementation of Machine Learning Based Bangla Healthcare Chatbot",
     year: "2019",
-    authors: "Md Moshiur Rahman, Ruhul Amin, Md Nazmul Khan Liton, Nahid Hossain",
+    authors:
+      "Md Moshiur Rahman, Ruhul Amin, Md Nazmul Khan Liton, Nahid Hossain",
     url: "https://ieeexplore.ieee.org/abstract/document/9038579",
     venue: "IEEE",
+    citation: 75,
   },
   {
     type: "Conference",
-    title: "Abstractive Headline Generation from Bangla News Articles using Seq2Seq RNNs with Global Attention",
+    title:
+      "Abstractive Headline Generation from Bangla News Articles using Seq2Seq RNNs with Global Attention",
     year: "2021",
-    authors: "Ruhul Amin, Nabila Sabrin Sworna, Md Nazmul Khan Liton, Nahid Hossain",
+    authors:
+      "Ruhul Amin, Nabila Sabrin Sworna, Md Nazmul Khan Liton, Nahid Hossain",
     url: "https://ieeexplore.ieee.org/abstract/document/9642642",
     venue: "IEEE",
+    citation: 5,
   },
   {
     type: "Conference",
-    title: "Boosting K-Nearest Neighbour Classification using Clustering and AdaBoost Methods",
+    title:
+      "Boosting K-Nearest Neighbour Classification using Clustering and AdaBoost Methods",
     year: "2022",
-    authors: "Dewan Md Farid, Nabila Sabrin Sworna, Ruhul Amin, Nazifa Sadia, Moshiur Rahman, Nazmul Khan Liton",
+    authors:
+      "Dewan Md Farid, Nabila Sabrin Sworna, Ruhul Amin, Nazifa Sadia, Moshiur Rahman, Nazmul Khan Liton",
     url: "https://ieeexplore.ieee.org/abstract/document/9864503",
     venue: "IEEE",
+    citation: 13,
   },
 ];
 

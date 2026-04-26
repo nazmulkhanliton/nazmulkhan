@@ -25,7 +25,10 @@ export default function Projects() {
   const rest = projects.filter((p) => !p.featured);
 
   return (
-    <section id="projects" style={{ padding: "6rem 2rem", maxWidth: "1100px", margin: "0 auto" }}>
+    <section
+      id="projects"
+      style={{ padding: "6rem 2rem", maxWidth: "1100px", margin: "0 auto" }}
+    >
       {/* Section header */}
       <div style={{ marginBottom: "3.5rem" }}>
         <p
@@ -39,7 +42,7 @@ export default function Projects() {
             fontFamily: "'JetBrains Mono', monospace",
           }}
         >
-          // selected work
+          {"// selected work"}
         </p>
         <h2
           style={{
@@ -127,7 +130,8 @@ function ProjectCard({
           left: 0,
           right: 0,
           height: "2px",
-          background: "linear-gradient(90deg, var(--accent) 0%, transparent 100%)",
+          background:
+            "linear-gradient(90deg, var(--accent) 0%, transparent 100%)",
           opacity: 0.5,
           borderRadius: "16px 16px 0 0",
         }}
@@ -160,7 +164,8 @@ function ProjectCard({
               lineHeight: 1,
             }}
             onMouseEnter={(e) =>
-              ((e.currentTarget as HTMLElement).style.color = "var(--accent-soft)")
+              ((e.currentTarget as HTMLElement).style.color =
+                "var(--accent-soft)")
             }
             onMouseLeave={(e) =>
               ((e.currentTarget as HTMLElement).style.color = "var(--text-dim)")
@@ -195,7 +200,14 @@ function ProjectCard({
         </p>
       </div>
 
-      <div style={{ display: "flex", flexWrap: "wrap", gap: "0.4rem", marginTop: "auto" }}>
+      <div
+        style={{
+          display: "flex",
+          flexWrap: "wrap",
+          gap: "0.4rem",
+          marginTop: "auto",
+        }}
+      >
         {project.tech.map((t) => (
           <span
             key={t}

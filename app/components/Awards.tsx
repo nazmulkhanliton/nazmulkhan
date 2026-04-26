@@ -1,5 +1,11 @@
 "use client";
-import { awards, skills, leadership, experience, education } from "../data/portfolio";
+import {
+  awards,
+  skills,
+  leadership,
+  experience,
+  education,
+} from "../data/portfolio";
 
 export default function Awards() {
   const allSkills = [
@@ -11,7 +17,10 @@ export default function Awards() {
   ];
 
   return (
-    <section id="awards" style={{ padding: "6rem 2rem", maxWidth: "1100px", margin: "0 auto" }}>
+    <section
+      id="awards"
+      style={{ padding: "6rem 2rem", maxWidth: "1100px", margin: "0 auto" }}
+    >
       {/* Experience + Education row */}
       <div style={{ marginBottom: "5rem" }}>
         <p
@@ -25,7 +34,7 @@ export default function Awards() {
             fontFamily: "'JetBrains Mono', monospace",
           }}
         >
-          // background
+          {" // background"}
         </p>
         <h2
           style={{
@@ -59,7 +68,14 @@ export default function Awards() {
                 padding: "1.75rem",
               }}
             >
-              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "1rem" }}>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "flex-start",
+                  marginBottom: "1rem",
+                }}
+              >
                 <div>
                   <h3
                     style={{
@@ -76,7 +92,11 @@ export default function Awards() {
                     href={exp.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    style={{ fontSize: "0.85rem", color: "var(--accent-soft)", textDecoration: "none" }}
+                    style={{
+                      fontSize: "0.85rem",
+                      color: "var(--accent-soft)",
+                      textDecoration: "none",
+                    }}
                   >
                     {exp.company}
                   </a>
@@ -94,7 +114,15 @@ export default function Awards() {
                   {exp.period}
                 </span>
               </div>
-              <ul style={{ listStyle: "none", padding: 0, display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+              <ul
+                style={{
+                  listStyle: "none",
+                  padding: 0,
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: "0.5rem",
+                }}
+              >
                 {exp.responsibilities.map((r) => (
                   <li
                     key={r}
@@ -125,7 +153,9 @@ export default function Awards() {
           ))}
 
           {/* Education + Leadership */}
-          <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+          <div
+            style={{ display: "flex", flexDirection: "column", gap: "1rem" }}
+          >
             {education.map((edu) => (
               <div
                 key={edu.institution}
@@ -147,10 +177,22 @@ export default function Awards() {
                 >
                   {edu.degree}
                 </h3>
-                <p style={{ fontSize: "0.85rem", color: "var(--accent-soft)", marginBottom: "0.25rem" }}>
+                <p
+                  style={{
+                    fontSize: "0.85rem",
+                    color: "var(--accent-soft)",
+                    marginBottom: "0.25rem",
+                  }}
+                >
                   {edu.institution}
                 </p>
-                <p style={{ fontSize: "0.75rem", color: "var(--text-dim)", fontFamily: "'JetBrains Mono', monospace" }}>
+                <p
+                  style={{
+                    fontSize: "0.75rem",
+                    color: "var(--text-dim)",
+                    fontFamily: "'JetBrains Mono', monospace",
+                  }}
+                >
                   {edu.period} · {edu.location}
                 </p>
               </div>
@@ -188,10 +230,28 @@ export default function Awards() {
                   }}
                 >
                   <div>
-                    <p style={{ fontSize: "0.83rem", color: "var(--text)", fontWeight: 500 }}>{l.role}</p>
-                    <p style={{ fontSize: "0.75rem", color: "var(--text-dim)" }}>{l.org}</p>
+                    <p
+                      style={{
+                        fontSize: "0.83rem",
+                        color: "var(--text)",
+                        fontWeight: 500,
+                      }}
+                    >
+                      {l.role}
+                    </p>
+                    <p
+                      style={{ fontSize: "0.75rem", color: "var(--text-dim)" }}
+                    >
+                      {l.org}
+                    </p>
                   </div>
-                  <span style={{ fontSize: "0.72rem", color: "var(--text-dim)", fontFamily: "'JetBrains Mono', monospace" }}>
+                  <span
+                    style={{
+                      fontSize: "0.72rem",
+                      color: "var(--text-dim)",
+                      fontFamily: "'JetBrains Mono', monospace",
+                    }}
+                  >
                     {l.period}
                   </span>
                 </div>
@@ -241,7 +301,9 @@ export default function Awards() {
                 >
                   {group.label}
                 </p>
-                <div style={{ display: "flex", flexWrap: "wrap", gap: "0.4rem" }}>
+                <div
+                  style={{ display: "flex", flexWrap: "wrap", gap: "0.4rem" }}
+                >
                   {group.items.map((item) => (
                     <span
                       key={item}
@@ -278,7 +340,7 @@ export default function Awards() {
             fontFamily: "'JetBrains Mono', monospace",
           }}
         >
-          // recognition
+          {"// recognition"}
         </p>
         <h2
           style={{
@@ -320,7 +382,9 @@ export default function Awards() {
                 el.style.transform = "translateY(0)";
               }}
             >
-              <div style={{ fontSize: "1.75rem", marginBottom: "0.75rem" }}>{award.icon}</div>
+              <div style={{ fontSize: "1.75rem", marginBottom: "0.75rem" }}>
+                {award.icon}
+              </div>
               <h3
                 style={{
                   fontFamily: "'Space Grotesk', sans-serif",
@@ -333,7 +397,15 @@ export default function Awards() {
               >
                 {award.title}
               </h3>
-              <p style={{ fontSize: "0.78rem", color: "var(--text-dim)", lineHeight: 1.4 }}>{award.org}</p>
+              <p
+                style={{
+                  fontSize: "0.78rem",
+                  color: "var(--text-dim)",
+                  lineHeight: 1.4,
+                }}
+              >
+                {award.org}
+              </p>
               <p
                 style={{
                   fontSize: "0.72rem",

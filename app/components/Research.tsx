@@ -23,7 +23,7 @@ export default function Research() {
             fontFamily: "'JetBrains Mono', monospace",
           }}
         >
-          // publications
+          {"// publications"}
         </p>
         <h2
           style={{
@@ -170,17 +170,46 @@ export default function Research() {
               >
                 {pub.authors}
               </p>
-              <span
+              <div
                 style={{
-                  display: "inline-block",
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "0.75rem",
                   marginTop: "0.5rem",
-                  fontSize: "0.72rem",
-                  color: "var(--text-dim)",
-                  fontFamily: "'JetBrains Mono', monospace",
+                  flexWrap: "wrap",
                 }}
               >
-                {pub.venue}
-              </span>
+                <span
+                  style={{
+                    fontSize: "0.72rem",
+                    color: "var(--text-dim)",
+                    fontFamily: "'JetBrains Mono', monospace",
+                  }}
+                >
+                  {pub.venue}
+                </span>
+                {pub.citation != null && (
+                  <span
+                    style={{
+                      display: "inline-flex",
+                      alignItems: "center",
+                      gap: "0.3rem",
+                      fontSize: "0.68rem",
+                      color: "var(--accent-soft)",
+                      fontFamily: "'JetBrains Mono', monospace",
+                      background: "rgba(108,99,255,0.08)",
+                      border: "1px solid rgba(108,99,255,0.2)",
+                      borderRadius: "100px",
+                      padding: "0.1rem 0.55rem",
+                    }}
+                  >
+                    <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z" />
+                    </svg>
+                    {pub.citation} {pub.citation === 1 ? "citation" : "citations"}
+                  </span>
+                )}
+              </div>
             </div>
           </a>
         ))}

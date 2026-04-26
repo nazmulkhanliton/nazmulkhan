@@ -31,7 +31,8 @@ export default function Hero() {
             linear-gradient(90deg, rgba(108,99,255,0.04) 1px, transparent 1px)
           `,
           backgroundSize: "60px 60px",
-          maskImage: "radial-gradient(ellipse 80% 80% at 50% 50%, black 30%, transparent 100%)",
+          maskImage:
+            "radial-gradient(ellipse 80% 80% at 50% 50%, black 30%, transparent 100%)",
         }}
       />
 
@@ -44,7 +45,8 @@ export default function Hero() {
           transform: "translateX(-50%)",
           width: "600px",
           height: "400px",
-          background: "radial-gradient(ellipse, rgba(108,99,255,0.12) 0%, transparent 70%)",
+          background:
+            "radial-gradient(ellipse, rgba(108,99,255,0.12) 0%, transparent 70%)",
           pointerEvents: "none",
         }}
       />
@@ -104,7 +106,8 @@ export default function Hero() {
           <br />
           <span
             style={{
-              background: "linear-gradient(135deg, #6c63ff 0%, #a78bfa 50%, #60a5fa 100%)",
+              background:
+                "linear-gradient(135deg, #6c63ff 0%, #a78bfa 50%, #60a5fa 100%)",
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
               backgroundClip: "text",
@@ -173,11 +176,13 @@ export default function Hero() {
               display: "inline-block",
             }}
             onMouseEnter={(e) => {
-              (e.currentTarget as HTMLElement).style.transform = "translateY(-2px)";
+              (e.currentTarget as HTMLElement).style.transform =
+                "translateY(-2px)";
               (e.currentTarget as HTMLElement).style.opacity = "0.9";
             }}
             onMouseLeave={(e) => {
-              (e.currentTarget as HTMLElement).style.transform = "translateY(0)";
+              (e.currentTarget as HTMLElement).style.transform =
+                "translateY(0)";
               (e.currentTarget as HTMLElement).style.opacity = "1";
             }}
           >
@@ -198,12 +203,16 @@ export default function Hero() {
               display: "inline-block",
             }}
             onMouseEnter={(e) => {
-              (e.currentTarget as HTMLElement).style.borderColor = "var(--accent)";
-              (e.currentTarget as HTMLElement).style.transform = "translateY(-2px)";
+              (e.currentTarget as HTMLElement).style.borderColor =
+                "var(--accent)";
+              (e.currentTarget as HTMLElement).style.transform =
+                "translateY(-2px)";
             }}
             onMouseLeave={(e) => {
-              (e.currentTarget as HTMLElement).style.borderColor = "var(--border)";
-              (e.currentTarget as HTMLElement).style.transform = "translateY(0)";
+              (e.currentTarget as HTMLElement).style.borderColor =
+                "var(--border)";
+              (e.currentTarget as HTMLElement).style.transform =
+                "translateY(0)";
             }}
           >
             Get In Touch
@@ -222,10 +231,11 @@ export default function Hero() {
           }}
         >
           {[
-            { label: "Years of Experience", value: "3+" },
-            { label: "Projects Delivered", value: "10+" },
+            { label: "Years of Experience", value: "4+" },
+            { label: "Projects Delivered", value: "20+" },
             { label: "Research Papers", value: "4" },
             { label: "Hackathon Wins", value: "2" },
+            { label: "Citations", value: "164+" },
           ].map((stat) => (
             <div key={stat.label}>
               <div

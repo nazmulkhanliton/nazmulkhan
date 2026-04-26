@@ -21,7 +21,8 @@ export default function Contact() {
       {/* CTA banner */}
       <div
         style={{
-          background: "linear-gradient(135deg, rgba(108,99,255,0.12) 0%, rgba(96,165,250,0.08) 100%)",
+          background:
+            "linear-gradient(135deg, rgba(108,99,255,0.12) 0%, rgba(96,165,250,0.08) 100%)",
           border: "1px solid rgba(108,99,255,0.2)",
           borderRadius: "24px",
           padding: "4rem 3rem",
@@ -39,7 +40,8 @@ export default function Contact() {
             transform: "translate(-50%, -50%)",
             width: "400px",
             height: "200px",
-            background: "radial-gradient(ellipse, rgba(108,99,255,0.15) 0%, transparent 70%)",
+            background:
+              "radial-gradient(ellipse, rgba(108,99,255,0.15) 0%, transparent 70%)",
             pointerEvents: "none",
           }}
         />
@@ -55,7 +57,7 @@ export default function Contact() {
             fontFamily: "'JetBrains Mono', monospace",
           }}
         >
-          // get in touch
+          {"// get in touch"}
         </p>
         <h2
           style={{
@@ -78,10 +80,18 @@ export default function Contact() {
             lineHeight: 1.6,
           }}
         >
-          Open to full-time roles, freelance projects, research collaborations, and training engagements.
+          Open to full-time roles, freelance projects, research collaborations,
+          and training engagements.
         </p>
 
-        <div style={{ display: "flex", gap: "1rem", justifyContent: "center", flexWrap: "wrap" }}>
+        <div
+          style={{
+            display: "flex",
+            gap: "1rem",
+            justifyContent: "center",
+            flexWrap: "wrap",
+          }}
+        >
           <a
             href={`mailto:${person.email}`}
             style={{
@@ -99,14 +109,23 @@ export default function Contact() {
             }}
             onMouseEnter={(e) => {
               (e.currentTarget as HTMLElement).style.opacity = "0.85";
-              (e.currentTarget as HTMLElement).style.transform = "translateY(-2px)";
+              (e.currentTarget as HTMLElement).style.transform =
+                "translateY(-2px)";
             }}
             onMouseLeave={(e) => {
               (e.currentTarget as HTMLElement).style.opacity = "1";
-              (e.currentTarget as HTMLElement).style.transform = "translateY(0)";
+              (e.currentTarget as HTMLElement).style.transform =
+                "translateY(0)";
             }}
           >
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+            >
               <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
               <polyline points="22,6 12,13 2,6" />
             </svg>
@@ -126,12 +145,16 @@ export default function Contact() {
               transition: "border-color 0.2s, transform 0.2s",
             }}
             onMouseEnter={(e) => {
-              (e.currentTarget as HTMLElement).style.borderColor = "var(--accent)";
-              (e.currentTarget as HTMLElement).style.transform = "translateY(-2px)";
+              (e.currentTarget as HTMLElement).style.borderColor =
+                "var(--accent)";
+              (e.currentTarget as HTMLElement).style.transform =
+                "translateY(-2px)";
             }}
             onMouseLeave={(e) => {
-              (e.currentTarget as HTMLElement).style.borderColor = "var(--border)";
-              (e.currentTarget as HTMLElement).style.transform = "translateY(0)";
+              (e.currentTarget as HTMLElement).style.borderColor =
+                "var(--border)";
+              (e.currentTarget as HTMLElement).style.transform =
+                "translateY(0)";
             }}
           >
             {person.phone}
@@ -194,12 +217,16 @@ export default function Contact() {
                 transition: "border-color 0.2s, color 0.2s",
               }}
               onMouseEnter={(e) => {
-                (e.currentTarget as HTMLElement).style.borderColor = "var(--accent)";
-                (e.currentTarget as HTMLElement).style.color = "var(--accent-soft)";
+                (e.currentTarget as HTMLElement).style.borderColor =
+                  "var(--accent)";
+                (e.currentTarget as HTMLElement).style.color =
+                  "var(--accent-soft)";
               }}
               onMouseLeave={(e) => {
-                (e.currentTarget as HTMLElement).style.borderColor = "var(--border)";
-                (e.currentTarget as HTMLElement).style.color = "var(--text-dim)";
+                (e.currentTarget as HTMLElement).style.borderColor =
+                  "var(--border)";
+                (e.currentTarget as HTMLElement).style.color =
+                  "var(--text-dim)";
               }}
             >
               {s.icon}
