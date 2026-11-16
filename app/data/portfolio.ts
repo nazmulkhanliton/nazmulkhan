@@ -4,21 +4,21 @@ export const person = {
   role: "Full Stack Engineer & AI Builder",
   email: "liton079@gmail.com",
   phone: "+8801521481658",
-  company: "Edusoft Consultants Ltd",
+  company: "",
   companyUrl: "https://edusoftconsultants.com",
-  github: "https://github.com/nazmulkhanliton",
-  linkedin: "https://linkedin.com/in/nazmulkhanliton",
-  scholar: "https://scholar.google.com/citations?user=ZWKvGLkAAAAJ&hl=en",
-  leetcode: "https://leetcode.com/u/nazmulkhanliton/",
+  github: "https://github.com/",
+  linkedin: "https://linkedin.com/",
+  scholar: "https://scholar.google.com/",
+  leetcode: "https://leetcode.com/",
   bio: "I build full-stack web systems, train developers, manage servers, and design AI-powered knowledge agents. Currently crafting educational technology solutions at Edusoft Consultants Ltd.",
 };
 
 export const experience = [
   {
-    company: "Edusoft Consultants Ltd",
+    company: "",
     role: "Software Engineer",
     period: "Feb 2022 — Present",
-    url: "https://edusoftconsultants.com",
+    url: "",
     responsibilities: [
       "Full Stack Node.js Development",
       "Training & Mentoring developers",

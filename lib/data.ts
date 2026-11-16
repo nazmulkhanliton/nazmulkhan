@@ -3,7 +3,7 @@ export const portfolioData = {
   title: "Full Stack Engineer & AI Enthusiast",
   email: "liton079@gmail.com",
   phone: "+8801521481658",
-  bio: "Software Engineer at Edusoft Consultants Ltd with a passion for building scalable web applications, AI-powered systems, and educational technology. Published researcher in ML and NLP.",
+  bio: "Software Engineer at  with a passion for building scalable web applications, AI-powered systems, and educational technology. Published researcher in ML and NLP.",
   links: {
     github: "https://github.com",
     linkedin: "https://linkedin.com",
@@ -18,7 +18,7 @@ export const portfolioData = {
   ],
   experience: [
     {
-      company: "Edusoft Consultants LTD",
+      company: "",
       role: "Software Engineer",
       period: "February 2022 – Present",
       responsibilities: [
@@ -44,7 +44,7 @@ export const portfolioData = {
       year: "2025",
       description: "A web-based Learning Management System for Bangladesh University of Professionals. Features secure course access, assignments, notices, and role-based dashboards.",
       tech: ["Next.js", "Node.js", "PostgreSQL", "Drizzle ORM"],
-      link: "https://www.bup.edu.bd",
+      // link: "https://www.bup.edu.bd",
     },
     {
       title: "Knowledge-based AI Agent",
@@ -58,28 +58,28 @@ export const portfolioData = {
       year: "2025",
       description: "Bangladesh's first online mental wellness platform offering confidential counseling via text, chat, phone, or video.",
       tech: ["Next.js", "Prisma", "Node.js", "PostgreSQL"],
-      link: "https://www.alightinzen.com",
+      // link: "https://www.alightinzen.com",
     },
     {
       title: "Nisan Paint & Inks Ltd",
       year: "2025",
       description: "Modern responsive company website showcasing industrial paint and ink products with SEO-friendly architecture.",
       tech: ["Next.js", "Node.js", "PostgreSQL", "Drizzle ORM"],
-      link: "https://www.nisaninks.com",
+      // link: "https://www.nisaninks.com",
     },
     {
       title: "Task Management System",
       year: "2025",
       description: "Full-featured web-based task management system with real-time updates, team assignment, priority tracking, and intuitive UI.",
       tech: ["Next.js", "Node.js", "PostgreSQL", "Drizzle ORM"],
-      link: "https://tms-escl.vercel.app/",
+      // link: "https://tms-escl.vercel.app/",
     },
     {
       title: "Lake View Park & Restaurant",
       year: "2025",
       description: "Complete management and digital ticketing system with visitor registration, ticket sales, ride management, and real-time reporting.",
       tech: ["Next.js", "Node.js", "PostgreSQL", "Drizzle ORM"],
-      link: "https://www.lakeviewparkandrestaurant.com",
+      // link: "https://www.lakeviewparkandrestaurant.com",
     },
   ],
   publications: [
