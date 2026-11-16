@@ -5,7 +5,7 @@ export const person = {
   email: "liton079@gmail.com",
   phone: "+8801521481658",
   company: "",
-  companyUrl: "https://edusoftconsultants.com",
+  companyUrl: "",
   github: "https://github.com/",
   linkedin: "https://linkedin.com/",
   scholar: "https://scholar.google.com/",
