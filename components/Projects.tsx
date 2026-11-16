@@ -82,7 +82,7 @@ export default function Projects() {
               </div>
               {project.link && (
                 <a
-                  href={project.link}
+                  // href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{
