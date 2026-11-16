@@ -10,7 +10,7 @@ export const person = {
   linkedin: "https://linkedin.com/",
   scholar: "https://scholar.google.com/",
   leetcode: "https://leetcode.com/",
-  bio: "I build full-stack web systems, train developers, manage servers, and design AI-powered knowledge agents. Currently crafting educational technology solutions at Edusoft Consultants Ltd.",
+  bio: "I build full-stack web systems, train developers, manage servers, and design AI-powered knowledge agents. Currently crafting educational technology solutions at",
 };
 
 export const experience = [
